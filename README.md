@@ -1,10 +1,10 @@
-# 🧪 Transmedia Test Automation Project
+# Transmedia Test Automation Project
 
 This repo contains both UI and API tests for the Transmedia board/list app. The goal of this assignment is to validate key functionality like board creation, list manipulation, and basic flow checks.
 
----
 
-## ⚙️ Setup Instructions
+
+## Setup Instructions
 
 ### 1. Clone the repo
 ```bash
@@ -35,9 +35,9 @@ pip install -r requirements.txt
 pip install selenium pytest requests
 ```
 
----
 
-## 🚀 Run the App
+
+## Run the App
 
 Make sure the local app is running. In the frontend project folder (e.g., `qa-automation-home-assignment`):
 
@@ -48,7 +48,7 @@ npm start
 
 App should run on [http://localhost:3000](http://localhost:3000)
 
----
+
 
 ## ✅ Running the Tests
 
@@ -72,7 +72,7 @@ pytest test_board_list.py
 
 > Note: Chrome browser must be installed. Selenium uses it by default.
 
----
+
 
 ## 📁 Project Structure
 
@@ -86,7 +86,7 @@ pytest test_board_list.py
 ├── conftest.py            # Pytest fixtures (like Selenium driver)
 ```
 
----
+
 
 ## 🧪 What’s Covered
 
@@ -94,7 +94,7 @@ pytest test_board_list.py
 - Add & delete list (API)
 - Full UI flow: Board + List interactions
 
----
+
 
 ## 📝 Notes
 
@@ -102,8 +102,5 @@ pytest test_board_list.py
 - All requests assume the app is running on `localhost:3000`.
 - Don’t hardcode IDs if you plan to scale this — dynamic data is used in tests intentionally.
 
----
 
-## 🤝 Credits
 
-Saimon — automation done from scratch.
