@@ -50,7 +50,7 @@ App should run on [http://localhost:3000](http://localhost:3000)
 
 
 
-## ✅ Running the Tests
+## Running the Tests
 
 ### API Test
 ```bash
@@ -74,7 +74,7 @@ pytest test_board_list.py
 
 
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 .
@@ -88,7 +88,7 @@ pytest test_board_list.py
 
 
 
-## 🧪 What’s Covered
+## What’s Covered
 
 - Create & delete board (API)
 - Add & delete list (API)
@@ -96,7 +96,7 @@ pytest test_board_list.py
 
 
 
-## 📝 Notes
+## Notes
 
 - If Chrome isn’t launching, make sure chromedriver is compatible with your version.
 - All requests assume the app is running on `localhost:3000`.
