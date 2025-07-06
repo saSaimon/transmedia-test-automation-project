@@ -70,6 +70,12 @@ cd tests
 pytest test_board_list.py
 ```
 
+### Tests both API and UI automation
+```bash
+python run_tests.py
+```
+
+
 > Note: Chrome browser must be installed. Selenium uses it by default.
 
 
@@ -101,5 +107,7 @@ pytest test_board_list.py
 - If Chrome isn’t launching, make sure chromedriver is compatible with your version.
 - All requests assume the app is running on `localhost:3000`.
 - Don’t hardcode IDs if you plan to scale this — dynamic data is used in tests intentionally.
+
+
 
 
